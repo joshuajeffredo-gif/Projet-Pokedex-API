@@ -78,7 +78,7 @@ Le serveur utilise le port **5001**.
 Adresse locale :
 
 ```text
-http://addressip:5001
+http://localhost:5001
 ```
 
 ## Routes de l'API
@@ -97,25 +97,25 @@ Toutes les routes utilisent le préfixe `/api/v1/`.
 Récupérer tous les Pokémon :
 
 ```http
-GET http://adressip:5001/api/v1/pokemons
+GET http://localhost:5001/api/v1/pokemons
 ```
 
 Récupérer un Pokémon aléatoire :
 
 ```http
-GET http://adressip:5001/api/v1/pokemons/random
+GET http://localhost:5001/api/v1/pokemons/random
 ```
 
 Rechercher un Pokémon par identifiant :
 
 ```http
-GET http://adressip:5001/api/v1/pokemons/25
+GET http://localhost:5001/api/v1/pokemons/25
 ```
 
 Rechercher un Pokémon par nom :
 
 ```http
-GET http://adressip:5001/api/v1/pokemons/Pikachu
+GET http://localhost:5001/api/v1/pokemons/Pikachu
 ```
 
 **Remarque :** Ces routes correspondent aux fonctionnalités demandées dans le TP. Elles ne sont pas encore toutes implémentées dans le projet.
