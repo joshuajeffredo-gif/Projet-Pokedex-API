@@ -14,7 +14,6 @@ Le projet repose sur deux TP :
 
 - JavaScript
 - Node.js
-- Express
 - JSON
 - Git / GitHub
 - Bruno / Postman pour tester les requêtes
@@ -79,7 +78,7 @@ Le serveur utilise le port **5001**.
 Adresse locale :
 
 ```text
-http://localhost:5001
+http://addressip:5001
 ```
 
 ## Routes de l'API
@@ -98,25 +97,25 @@ Toutes les routes utilisent le préfixe `/api/v1/`.
 Récupérer tous les Pokémon :
 
 ```http
-GET http://localhost:5001/api/v1/pokemons
+GET http://adressip:5001/api/v1/pokemons
 ```
 
 Récupérer un Pokémon aléatoire :
 
 ```http
-GET http://localhost:5001/api/v1/pokemons/random
+GET http://adressip:5001/api/v1/pokemons/random
 ```
 
 Rechercher un Pokémon par identifiant :
 
 ```http
-GET http://localhost:5001/api/v1/pokemons/25
+GET http://adressip:5001/api/v1/pokemons/25
 ```
 
 Rechercher un Pokémon par nom :
 
 ```http
-GET http://localhost:5001/api/v1/pokemons/Pikachu
+GET http://adressip:5001/api/v1/pokemons/Pikachu
 ```
 
 **Remarque :** Ces routes correspondent aux fonctionnalités demandées dans le TP. Elles ne sont pas encore toutes implémentées dans le projet.
@@ -155,7 +154,7 @@ Cette fonctionnalité reste à développer.
 - [x] Ajout des fichiers JSON
 - [x] Installation et configuration d'Express
 - [x] Création du serveur Node.js
-- [x] Création de la route `/api/v1/pokemons`
+- [ ] Création de la route `/api/v1/pokemons`
 - [ ] Correction de la lecture des données JSON
 - [ ] Recherche d'un Pokémon aléatoire
 - [ ] Recherche par identifiant
